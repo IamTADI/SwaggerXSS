@@ -1,0 +1,5 @@
+swagger: "2.0"
+info:
+  title: "<img src=x onerror=alert(1)>"
+  description: "PWNED <script>alert(1)</script>"
+paths: {}
